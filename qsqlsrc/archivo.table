@@ -1,0 +1,5 @@
+-- Crear o reemplazar tabla de provincias
+CREATE TABLE provincias (
+    codigo DECIMAL(3, 0) NOT NULL PRIMARY KEY,
+    descripcion CHAR(30) NOT NULL
+);
